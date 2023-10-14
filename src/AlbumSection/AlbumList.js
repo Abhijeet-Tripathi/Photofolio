@@ -17,7 +17,7 @@ export default function AlbumList({ showImageSection, albumTitles, setAlbumTitle
     }
 
     getAlbums();
-  }, []);
+  }, [setAlbumTitles]);
 
   useEffect(() => {
     // console.log(albumTitles);

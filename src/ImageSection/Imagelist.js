@@ -48,7 +48,7 @@ export default function ImageList({ albumName,addToast,handleNavClick }) {
 
       createDoc();
     }
-  }, [albumName, imageName, imageUrl]);
+  }, [albumName, imageName, imageUrl,addToast]);
 
   useEffect(() => {
     // Listen for real-time updates to the Firestore document
