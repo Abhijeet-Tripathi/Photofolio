@@ -1,0 +1,58 @@
+.headingCreateAlbum{
+    margin-bottom: 2%;
+}
+.form{
+    position: relative;
+    top:30px;
+    padding: 30px;
+    border: 1px solid #df48df;
+    border-radius: 10px;
+    width: 59%;
+     margin-left: 20%;
+    background-color: silver;
+    background-color: #F4F4F4;
+    margin-bottom:60px;
+}
+
+.albumbox{
+    padding:18px;
+    font-size: 1.5rem;
+    width:50%;
+    font-weight: 600;
+    border-radius: 25px;
+}
+
+.clearbtn{
+font-size: 1.5rem;
+margin-left:25px;
+/* border: 0px solid black; */
+border-radius: 25px;
+padding-left: 4%;
+padding-right: 4%;
+padding-top: 1%;
+padding-bottom: 1%;
+font-weight: 600;
+color:white;
+background-color: #FF1300;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+ rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+  rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.createbtn{
+font-size: 1.5rem;
+margin-left: 25px;
+/* border: 3px solid black; */
+border-radius: 25px;
+padding-left: 4%;
+padding-right: 4%;
+padding-top: 1%;
+padding-bottom: 1%;
+font-weight: 600;
+color: white;
+background-color: #0077FF;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+ rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+  rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+

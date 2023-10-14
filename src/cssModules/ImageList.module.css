@@ -1,0 +1,41 @@
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align the image groups to the left */
+  align-content: flex-start; /* Align the image groups to the top */
+}
+
+.boxGroup {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between; /* Add spacing between the boxes */
+  padding: 10px;
+}
+
+.box {
+  background-color: #87999a61;
+  height: 33%;
+  width: 23%;
+  margin: 10px;
+  border-radius: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 5px solid white;
+}
+
+.box h4 {
+  text-align: center;
+  padding: 1px;
+  margin: 0;
+}

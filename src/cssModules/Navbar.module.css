@@ -1,0 +1,14 @@
+.nav{
+    width:100vw;
+    height:10vh;
+    background-color:#A0A0F9;
+}
+
+.navheading{
+    color: white;
+    padding: 15px;
+
+}
+.navheading:hover{
+    cursor: pointer;
+}

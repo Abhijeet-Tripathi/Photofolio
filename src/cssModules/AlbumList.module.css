@@ -1,0 +1,31 @@
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    background-color: #87999a61;
+    height: 33%;
+    width: 23%;
+    margin: 10px;
+    border-radius: 23px;
+  }
+
+  .box:hover{
+    cursor: pointer;
+  }
+  
+  .box img {
+    margin-left: 25%;
+    margin-top: 8%;
+  }
+  
+  .box h4 {
+    text-align: center;
+    padding: 1px;
+    margin: 0;
+  }
+  
